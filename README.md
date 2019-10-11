@@ -7,3 +7,7 @@
 			maven { url 'https://jitpack.io' }
 		}
 	}
+	
+	dependencies {
+	        implementation 'com.github.qq524787275:Notify:v1.0'
+	}
