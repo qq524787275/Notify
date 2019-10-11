@@ -13,7 +13,7 @@
 	}
 	
 	
-	private fun createNotification() {
+    private fun createNotification() {
         val pendingIntent = NavDeepLinkBuilder(requireActivity())
             .setGraph(R.navigation.navigation_main)
             .setDestination(R.id.fragmentLanguages)
@@ -27,5 +27,4 @@
                 text = "Deeplink跳转到切换语言界面"
             }
             .show(1)
-    	}
-
+    }
